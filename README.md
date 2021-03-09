@@ -1,1 +1,1 @@
-Use `next dev` to start application
+Use `npm run dev` to start application
