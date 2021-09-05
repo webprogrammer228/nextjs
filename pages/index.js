@@ -1,7 +1,10 @@
-import Head from 'next/head'
-import Link from 'next/link'
+import Head from "next/head";
+import Link from "next/link";
+
 
 export default function Home() {
+
+
   return (
     <div>
       <Head>
@@ -12,10 +15,11 @@ export default function Home() {
         <p>
           Here are available <Link href="/listings">listings</Link>.
         </p>
+
+
       </section>
       <section>
       </section>
     </div>
-  )
+  );
 }
-
